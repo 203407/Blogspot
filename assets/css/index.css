@@ -5,9 +5,29 @@ body{
 
 h1 {
     font-family:'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 45px;
+    text-align: center;    
 }
 
 span {
     font-weight: 900; /*peso/densidad de las letras en si, o peso en las de google fonts*/
+}
+
+header {
+    background-color: grey;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+}
+
+header img {
+    width: 125px;
+    height: auto;
+}
+
+footer {
+    background-color: grey;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
 }
