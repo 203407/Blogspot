@@ -1,86 +1,201 @@
+* {
+    box-sizing: border-box;    
+}
+
 body{
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
+   font-family: 'Roboto', sans-serif;   
+   font-size:13px;    
 }
 
 header {
-    background-color: #FCEBEB;
-    border-style: solid;    
-    border-width: 2px;
+    border: 2px solid;
+    background-color: #FCEBEB;     
+    position: fixed;
+    width: 99%;
+    height: auto;    
+    top: 0;        
 }
 
 footer {
     background-color: #FCEBEB;
-    border-style: solid;    
-    border-width: 2px;
+    border: 2px solid; 
+    margin-top: 30px;              
 }
 
 header img {
-    width: 70px;        
+    width: 55px;        
     position : absolute;    
     top:70%;
-    transform: translateY(-70%);
+    transform: translateY(-80%);
+    left: 2%;
 }
 
 h1 {
     font-family:'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 28px;
     text-align: center;    
     display: inline-block;    
     width: 100%;
     position: absolute;    
     top: 50%;
-    transform: translateY(-70%);
+    transform: translateY(-100%);
 }
+
+h3{    
+    font-size: 21px;
+    color : rgb(3, 3, 77);  
+    margin-bottom: 4px;  
+}
+
 
 span {
-    font-weight: 900; /*peso/densidad de las letras en si, o peso en las de google fonts*/
+    font-weight: 900; 
 }
 
+
+        /* cosas del nav */
 .contenedor{
     position: relative;
     width: 100%;
-    height: 80px;        
+    height: 70px;   
+    margin-bottom: 0;     
+}
+nav{        
+    background: #D2FECD;
+    position: relative;    
 }
 
 .nav-ul_menu {        
-    list-style: none;
-    margin-top: 4px;    
+    list-style: none;    
     margin-bottom: 0;   
+    margin-top: 0;
     padding-top: 4px;
-    padding-bottom: 4px;
-    text-align: right;
-    font-size: 11px;    
+    padding-bottom: 4px;      
+    width: 30%;
 }
-
-.nav-ul_menu li{       
-    display: inline;
-    margin-right: 10px;  
-    
-}
-
-.nav-ul_menu li a{        
+ .nav-ul_menu li a{        
     color: black;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 .nav-ul_menu a:hover{
-    color : blue;
+    color : blue;    
+} 
+
+.nav-ul_menu li{       
+    display: inline;
+    margin-right: 10px;       
 }
 
-nav{    
+.desple li{
+    padding-bottom: 10%; 
+}
+
+.desple ul li a{
+    display: block;
+    text-decoration: none;         
+}
+
+.desple ul{
+    display: none;      
+}
+
+.desple:hover ul {
+    position: absolute;
+    display:inline-block;        
+    margin-left: -4%; 
+    margin-top: 1.20%;           
+    padding-top: 1%; 
+    padding-left: 10px;
+    padding-right: 10px;      
     background: #D2FECD;       
+    border: 1px solid;    
 }
 
-
-
-/*
-.box {
-    border : solid red  1px;
+.nav-a_insta{
+    position: absolute;
+    left: 90%;   
+    bottom: 4.4px;    
+}
+.nav-a_face{
+    position: absolute;
+    left: 88%;   
+    bottom: 4.4px;    
 }
 
-
-.bo2 {
-    border : solid green  1px;
+.icons{    
+    width: 20px;             
 }
-*/
+
+         /* cosas del main,section */
+main {    
+    width: 68%;    
+    margin-left: 4%;
+    height: 100%;          
+    margin-top: 10%;
+}
+
+.main-section {            
+    height: 50%; 
+    padding-top: 8.8%;
+    margin-bottom: 0;                
+    padding-bottom: 0;    
+}
+
+.main-section_extra{  
+    margin-bottom: 7%; 
+}
+
+.section-title{    
+    text-align: center;            
+    font-size: 23px;
+    background: rgb(191, 216, 191);
+    border: 1px solid;
+    border-radius: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.img-article{
+    width: 400px;
+    height: 220px; 
+    float: left; 
+    margin-right: 15px;
+    margin-bottom: 4px;        
+}
+
+.article-text{    
+    font-weight: 400;
+    letter-spacing: -.23px;
+    line-height: 24px;
+    font-size: 17px;
+    color: rgb(44, 39, 39);    
+}
+
+.img-about{
+    width: 370px;
+    height: auto; 
+    position: relative;    
+    left: 30%;   
+    z-index: -1;
+}
+
+        /* cosas del aside */
+
+aside{
+    position: fixed; 
+    text-align: center;              
+    top: 20%;
+    right: 0.7%;        
+    width: 17%;    
+    padding: 0.5%;
+    font-size: 11px;
+    background: #dff0dd;      
+}
+
+.aside-img{        
+    width: 120px;    
+    height: 80px;    
+    margin-bottom: 6%;
+}

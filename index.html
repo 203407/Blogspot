@@ -3,74 +3,140 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     
-    <title>loveanime</title>
+    <title>lovegaming</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@700&family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./assets/css/index.css" type="text/css">
-    <link rel="icon" href="assets/icons/icono.ico">
+    <link rel="icon" href="./assets/icons/icono.jpg">
     
 </head>
-<body>
-   
-    <header>
+<body> 
+    <header>        
         <div class = "contenedor">
             <img src="./assets/images/Logo.webp" alt="Logo de la marca">
-            <h1 >Animelife</h1>
-        </div>
+            <h1 >JuegosLife</h1>
+        </div>        
         
         <nav>
-            <ul class = "nav-ul_menu">
-                <li ><a href="">Top 10</a></li>
-                <li > <a href="">Animes con mejor animacion</a></li>
-                <li ><a href="">Categorias</a></li>
-            </ul>
-        </nav>
-        
-        <nav></nav>
+            <ul class = "nav-ul_menu">                
+                <li ><a href="#best-grafic">Mejores graficos</a></li>
+                <li class="desple"><a  href="#categorias">Categorias</a>
+                    <ul > 
+                        <li ><a href="#accion"><span>Accion</span></a></li>
+                        <li><a href="#terror"><span>Terror</span></a></li>
+                        <li><a href="#aventura"><span>Aventuras</span></a></li>                        
+                    </ul>
+                </li>     
+                <li><a href="#pcgames">pc inf</a></li>  
+                <li><a href="#top">Inicio</a></li>                         
+            </ul>            
+            <a href="https://www.instagram.com/lilith_acdn/" class="nav-a_insta" target="_blank"><img src="./assets/icons/instagram.png" alt="instagram" class="icons"></a>
+            <a href="https://www.facebook.com/profile.php?id=100043077497204" class="nav-a_face" target="_blank"><img src="./assets/icons/facebook.png" alt="facebook" class="icons"></a>
+        </nav>        
     </header>
 
-    <main>        
-        <section>        
-            <h2>Animelandia</h2>    
-            <article>
-                <h3>Lo mejor de la semana</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, <span>consectetur</span> adipiscing elit. Suspendisse ac lectus tortor. Fusce commodo ligula nisl, ut tempus massa sollicitudin sit amet. Sed nec molestie velit. Aliquam imperdiet, ipsum at egestas faucibus, tellus justo ornare magna, quis rhoncus nisl dolor tristique felis. Mauris luctus, nisl quis faucibus imperdiet, dui nisl tempor velit, sed tincidunt ante lectus eget mi. Phasellus non quam risus. Suspendisse ante velit, vestibulum non interdum et, finibus sit amet odio. Sed quis consectetur nisi. Vestibulum auctor congue tristique.                                    
-                    https://www.w3c.es/Divulgacion/GuiasReferencia/XHTML1/
-                </p>
-           
+    <main>                        
+        <section class="main-section_extra" >
+            <h2 class="section-title">Sobre nosotros</h2>
+            <article>   
+                <h3>Comunidad de gamers</h3>   
+                <img src="./assets/images/gamer.webp" class="img-about" alt="gamerlove">         
+                <p  class="article-text">Este es un blog personal para platicar e informar sobre algunos temas en particular sobre los videojuegos, podrás encontrar información variada que después será actualizada cuanto haya nuevas noticias. </p>                
             </article>
-
-            <article>
-                <h3>Decepciones de la semana</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloremque provident, tempora ad autem voluptas fugit magni voluptates ipsum quod quam iusto reiciendis quos minima porro, ullam facilis. Labore, at.                    
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui accusantium quam quae iure tempora molestiae ipsum numquam quaerat, odio facere harum porro aspernatur officia optio culpa autem excepturi reprehenderit rerum?                
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, <span>consectetur</span> adipiscing elit. Suspendisse ac lectus tortor. Fusce commodo ligula nisl, ut tempus massa sollicitudin sit amet. Sed nec molestie velit. Aliquam imperdiet, ipsum at egestas faucibus, tellus justo ornare magna, quis rhoncus nisl dolor tristique felis. Mauris luctus, nisl quis faucibus imperdiet, dui nisl tempor velit, sed tincidunt ante lectus eget mi. Phasellus non quam risus. Suspendisse ante velit, vestibulum non interdum et, finibus sit amet odio. Sed quis consectetur nisi. Vestibulum auctor congue tristique.                                    
-                    https://www.w3c.es/Divulgacion/GuiasReferencia/XHTML1/
-                </p>
-           
-            </article>
-
-            <article>
-                <h3>Decepciones de la semana</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloremque provident, tempora ad autem voluptas fugit magni voluptates ipsum quod quam iusto reiciendis quos minima porro, ullam facilis. Labore, at.                                    
+        </section>   
+        
+        <section>
+            <h2 class="section-title">Virtual</h2>
+            <article>                   
+                <h3>Lo más nuevo sobre el mundo virutal </h3>             
+                <img src="./assets/images/virtual.webp" class="img-article" alt="vuelo-virtual">
+                <p class="article-text">El vuelo ligero llega a Microsoft Flight Simulator, pero no como imaginas
+                    a día de hoy son muchos juegos los que requieren una gran cantidad de espacio libre en el disco duro, así que es normal encontrarnos con problemas de almacenamiento debido a las grandes exigencias de los últimos títulos. Microsoft Flight Simulator no iba a ser menos, y es que, debido a la gran cantidad de mapas y detalles gráficos, el juego llega ocupar hasta 170 GB de instalación.En Microsoft eran conscientes que el problema de almacenamiento era algo que sufrían los usuarios. Así que se han puesto manos a la obra y han decidido lanzar un parche que va a reducir notablemente el espacio total que ocupa el juego una vez que lo tengas instalado en tu equipo.
+                    Ya sea porque tienes instalado muchísimos mods de Microsoft Flight Simulator, o las muchas actualizaciones gráficas que han ido lanzando para el juego, Microsoft Flight Simulator termina ocupando más de 170 GB en tu disco duro.
                 </p>
             </article>
+            
+        </section>   
 
-        </section>
+        <section id="best-grafic" class="main-section">
+            <h2 class="section-title">El juego con los mejores graficos del momento</h2>
+            <article>   
+                <h3>Minecraft</h3>             
+                <img src="./assets/images/minecraft.webp" alt="minecraft" class="img-article">
+                <p class="article-text">Una de las señas propias de identidad que el fenómeno Minecraft posee es la de su aspecto pixelado. Pero, ¿alguna vez os habéis preguntado cómo luciria el juego con un estilo de gráficos y animaciones más realista?
+                <br> Con las <strong>Texturas</strong>: Un paquete de texturas es un archivo que se utiliza para cambiar las texturas de los bloques, objetos, criaturas y otras cosas del juego. Normalmente son archivos ZIP que contienen imágenes PNG y un archivo PACK.TXT. 
+                <br> Con los <strong>shaders</strong>: herramientas que ayudan a elevar la calidad visual con nuevos efectos y modificaciones en gráficos.
+                <br><strong>Trabajo de NVIDIA</strong> para mejorar los graficos : Reuters
+                Microsoft Corp dijo este lunes que utilizará la tecnología de trazado de rayos en tiempo real de Nvidia Corp para ofrecer a los usuarios de su videojuego Minecraft gráficos más realistas en computadores personales.
+                El trazado de rayos en tiempo real, o la capacidad del procesador de simular cómo los rayos de luz rebotan en una escena visual, ayuda a los videojuegos y otros gráficos de computadora a simular de mejor manera las sombras y reflejos del mundo real.
+                La semana pasada, Nvidia reportó resultados trimestrales que superaron las estimaciones de Wall Street y dijo que su rentabilidad recibió un impulso de nuevos procesadores gráficos de gama alta para los usuarios de videojuegos.
+                </p>
+            </article>
+        </section>   
+
+        <section id ="pcgames" class="main-section">
+            <h2 class="section-title">Información sobre pc</h2>
+            <article>   
+                <h3>Juegos solo de pc</h3>  
+                <img src="./assets/images/pcgamin.webp" alt="pcgaming" class="img-article">           
+                <p class="article-text">¿que son? Un juego de PC, también llamados juego de ordenador o juego de computadora en distintos países hispanos, es un tipo de videojuego reproducido en un ordenador personal en vez de una videoconsola o máquina de arcade.  
+                <br> hay muchas <strong>ventajas</strong> de jugar en pc: <br> <strong>Juegos más baratos</strong> 
+                Los juegos de PC son más baratos por varios motivos. Uno de los más importantes es que Sony, Microsoft o Nintendo se llevan un porcentaje por cada juego vendido, el cual no se paga en PC. Este es el motivo de que un juego multiplataforma recién lanzado en PC cueste menos que en las consolas . 
+                <br> <strong>Online gratis</strong> 
+                En las consolas, jugar online es de pago. Dependiendo de la modalidad que escojamos y de si encontramos alguna oferta, el coste suele ser de unos 45 a 60 euros al año. En 5 años, tenemos un coste de entre 225 y 300 euros adicionales que hay que tener en cuenta en el precio de la consola que con el PC no estaríamos pagando.                
+                <br>Pero tambien puedes <strong>emular</strong> videojuegos antiguos en pc:Un emulador pone en un sistema Windows todo lo necesario para ejecutar juegos, que habitualmente se llaman ‘roms’ y que contienen todo lo necesario para poder ejecutar el videojuego como si estuviésemos en la máquina original. A mayores, los emuladores proporcionan funcionalidades y controles especiales para conseguir una mayor experiencia: acceso a menús de configuración de la máquina, guardados de partidamuladores hay para casi todas las máquinas y sistemas. Aunque a continuación podrás encontrar los emuladores arcade más populares, es fácil encontrar otros para juegos antiguos de ordenador (retrogaming) o incluso para algunas generaciones de consolas.
+                    
+                </p>
+            </article>
+        </section>  
+        
+        <section class="main-section">
+            <h2 id="categorias" class="section-title">Categiorias</h2>
+            <article id ="accion" class="main-section">   
+                <h3>Juegos de accion</h3>
+                    <img src="./assets/images/accion.webp" alt="accion" class="img-article">    
+                    <p class="article-text">Un videojuego de acción es un videojuego en el que el jugador debe usar su velocidad, destreza y tiempo de reacción. Entre los diversos géneros de videojuegos, el género de acción es el más amplio y abarcativo, englobando muchos subgéneros como videojuegos de lucha, videojuegos de disparos en primera persona, beat 'em ups y videojuegos de plataformas. <br>
+                    Muy a menudo, los videojuegos de acción usan la violencia como su principal característica de interacción, más específicamente el combate con armas de fuego o cuerpo a cuerpo.Si bien los objetivos de estos videojuegos varían de videojuego a videojuego, generalmente implican avanzar a través de niveles, eliminando hordas de enemigos y resolviendo problemas. Muchos videojuegos incluyen uno o más "jefes", a veces precedidos por "minijefes". Un minijefe es generalmente el clímax hacia un nivel o serie de niveles, con un jefe al final del juego o periódicamente por el juego, llevando a un "jefe final", el cual derrotar es el objetivo principal.</p>                
+            </article>
+
+            <article id ="terror"class="main-section">
+                <h3>Juegos de terror</h3>
+                <img src="./assets/images/terror.webp" alt="terror" class="img-article">
+                <p class="article-text">Un juego de terror es un género de videojuego centrado en la ficción de terror y normalmente diseñado para asustar al jugador.A diferencia de la mayoría de los otros géneros de videojuegos, que se clasifican por su modo de juego , los juegos de terror casi siempre se basan en una presentación narrativa o visual y utilizan una variedad de tipos de juego. <br>
+                Los juegos de terror de acción son un derivado de los juegos de terror de supervivencia, donde se utilizan más elementos de juegos de acción de los juegos de disparos en primera persona y en tercera persona junto con los temas de terror de supervivencia, lo que los hace más rápidos que los juegos de terror de supervivientes anteriores<br>  
+                El jugador también tiene el reto de encontrar elementos que desbloqueen el camino hacia nuevas áreas y resuelvan acertijos para continuar avanzando en la trama del videojuego. Los videojuegos hacen uso de fuertes temas de terror, como entornos oscuros como laberintos y ataques inesperados de los enemigos.
+            </p>
+            </article>
+            <article id ="aventura" class="main-section">
+                <h3>Juegos de aventura</h3>
+                <img src="./assets/images/aventuras.webp" alt="aventura" class="img-article">
+                <p class="article-text">Los videojuegos de aventura son un género de videojuegos, caracterizados por la investigación, exploración, la solución de rompecabezas, la interacción con personajes del videojuego, y un enfoque en el relato en vez de desafíos basados en reflejos. Es importante observar que este término no tiene relación con las películas y novelas de aventura y no es indicativo del tema o del sujeto que trata. La vasta mayoría de videojuegos de aventura son videojuegos de computadora, aunque los videojuegos de aventura de videoconsola no son desconocidos por lo mucho. <br>
+                 A diferencia de muchos otros géneros de videojuegos, el enfoque en una historia de los géneros de aventura permite tomar prestados elementos de otros medios eminentemente narrativos, como la literatura y las películas. Los videojuegos de aventura abarcan una amplia variedad de géneros literarios, incluyendo fantasía, ciencia ficción, misterio, terror, detectivesca y comedia. <br>
+                other information:los juegos de aventura son aquellos en dónde el protagonista sigue un sólo camino lleno de drama y acción, el camino del jugador ha sido diseñado específicamente para generar la sensación de la aventura y es linear, es decir sigue una secuencia como en una historia; todos los elementos del juego sirven para apoyar esa particular historia que tiene que terminar en un gran final.</p>
+            </article>
+        </section>    
 
     </main>
+    
+    <aside>    
+        <p>Aquí podrás descargar algunos juegos para pc de manera gratuita. </p>
+        <a href="https://www.ea.com/es-mx/games/library/pc-download" target="_blank"><img class="aside-img" src="./assets/images/juegospc.webp" alt="pcgames" ></a>
+        <p>Una pagina informativa sobre las novedades de los videojuegos</p>
+        <a href="https://www.levelup.com/noticias" target="_blank"><img class="aside-img" src="./assets/images/level.webp" alt="levelup"  ></a>
+        <p>Aquí podras encontrar varios hack para tus videojuegos favoritos</p>
+        <a href="https://blog.mastercoria.com/es/hacks/" target="_blank"><img class="aside-img" src="./assets/images/hack.webp" alt="hackGames"></a>
+    </aside>
+
 
 <footer>
     <ul>
-        <li>Contacto: </li>
-        <li>Redes sociales</li>
+        <li>Contacto: 9671918530</li>
+        <li>correo: 203407@ids.upchiapas.edu.mx</li>
     </ul>
 </footer>
 
