@@ -5,12 +5,13 @@
 body{
    font-family: 'Roboto', sans-serif;   
    font-size:13px;    
-   background: rgb(224, 224, 224)   ;
+   background-image: url("../../assets/images/fondo.png");              
 }
+
 
 header {
     border: 2px solid;
-    background-color: #FCEBEB;     
+    background-color: #bcb6f5;      
     position: fixed;
     width: 99%;
     height: auto;    
@@ -136,7 +137,10 @@ main {
     height: 100%; 
     margin-top: 10%;         
     padding-top: 3%;
-    background: white;    
+    padding-left: 15px;
+    padding-right: 15px;
+    background: white; 
+    border: 1px solid;  
 }
 
 .main-section {            
@@ -195,11 +199,12 @@ aside{
     width: 17%;    
     padding: 0.5%;
     font-size: 11px;
-    background: #dff0dd;      
+    background: #dff0dd;    
+    border: 1px solid;  
 }
 
 .aside-img{        
     width: 120px;    
     height: 80px;    
-    margin-bottom: 6%;
+    margin-bottom: 6%;    
 }
